@@ -1,0 +1,74 @@
+{
+  "name": "npd_cicadence",
+  "description": "Cicadence for Primeval Privacy Math",
+  "longDescription": "Often, we want to pick a time period for analysis of patient data that intentionally does not line up with common time periods for analysis.  This way, even if the same underlying patient data is used for a report, it is difficult to conduct a subtraction attack where one report can be used in  conjunction with another report to provide precise details about one or small number of patients. ",
+  "status": "production",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "CC0-1.0",
+        "URL": "https://github.com/DSACMS/npd_cicadence/blob/main/LICENSE"
+      }
+    ],
+    "usageType": "openSource",
+    "exemptionText": ""
+  },
+  "organization": "Centers for Medicare & Medicaid Services",
+  "repositoryURL": "https://github.com/DSACMS/npd_cicadence",
+  "projectURL": "",
+  "repositoryHost": "github.com/DSACMS",
+  "repositoryVisibility": "public",
+  "vcs": "git",
+  "laborHours": 96448,
+  "reuseFrequency": {
+    "forks": 0
+  },
+  "platforms": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "categories": [
+    "application-development"
+  ],
+  "softwareType": "standalone/desktop",
+  "languages": [
+    "Python"
+  ],
+  "maintenance": "internal",
+  "contractNumber": "0",
+  "date": {
+    "created": "2025-07-22T19:27:46Z",
+    "lastModified": "2025-07-28T13:04:57Z",
+    "metaDataLastUpdated": "2025-07-30T14:59:05.449Z"
+  },
+  "tags": [
+    "Cicadence",
+    "Primeval Privacy Math",
+    "Prime Lookback Picker"
+  ],
+  "contact": {
+    "email": "opensource@cms.hhs.gov",
+    "name": "Remy DeCausemaker"
+  },
+  "feedbackMechanisms": [
+    "https://github.com/DSACMS/npd_cicadence/issues"
+  ],
+  "localisation": false,
+  "repositoryType": "tools",
+  "userInput": true,
+  "fismaLevel": "low",
+  "group": "CMS/OA/DSAC",
+  "projects": [
+    "National Provider Directory"
+  ],
+  "systems": [],
+  "upstream": "https://github.com/DSACMS/npd_cicadence/network/dependencies",
+  "subsetInHealthcare": [
+    "operational"
+  ],
+  "userType": [
+    "government"
+  ],
+  "maturityModelTier": 0
+}
