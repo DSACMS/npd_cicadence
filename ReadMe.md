@@ -1,6 +1,9 @@
-Cicadence for Primeval Privacy Math
+![Beta](https://img.shields.io/badge/Status-Beta-red)
+ Cicadence for Primeval Privacy Math 
 =============================
-Prime Lookback Picker i.e. Cicada Number Picker
+Prime Lookback Picker i.e. Cicada Number Picker.
+
+![Warning!](https://img.shields.io/badge/warning-yellow) This repo is not yet relied upon and should not be in production code. This is privacy related code and as such will require extensive review before use. Do not use this code unless you understand all of the implications.
 
 Often, we want to pick a time period for analysis of patient data that intentionally does not line up with common time periods for analysis. 
 This way, even if the same underlying patient data is used for a report, it is difficult to conduct a subtraction attack where one report can be used in 
