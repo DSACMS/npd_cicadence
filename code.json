@@ -1,5 +1,6 @@
 {
   "name": "npd_cicadence",
+  "version": "",
   "description": "Cicadence for Primeval Privacy Math",
   "longDescription": "Often, we want to pick a time period for analysis of patient data that intentionally does not line up with common time periods for analysis.  This way, even if the same underlying patient data is used for a report, it is difficult to conduct a subtraction attack where one report can be used in  conjunction with another report to provide precise details about one or small number of patients. ",
   "status": "production",
@@ -15,13 +16,17 @@
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/npd_cicadence",
-  "projectURL": "",
   "repositoryHost": "github.com/DSACMS",
   "repositoryVisibility": "public",
+  "homepageURL": "",
+  "downloadURL": "",
+  "disclaimerURL": "",
+  "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 96448,
+  "laborHours": 1943,
   "reuseFrequency": {
-    "forks": 0
+    "forks": 0,
+    "clones": 0
   },
   "platforms": [
     "windows",
@@ -36,11 +41,17 @@
     "Python"
   ],
   "maintenance": "internal",
-  "contractNumber": "0",
+  "contractNumber": [
+    "0"
+  ],
+  "SBOM": "https://github.com/DSACMS/npd_cicadence/network/dependencies",
+  "relatedCode": [],
+  "reusedCode": [],
+  "partners": [],
   "date": {
     "created": "2025-07-22T19:27:46Z",
-    "lastModified": "2025-07-28T13:04:57Z",
-    "metaDataLastUpdated": "2025-07-30T14:59:05.449Z"
+    "lastModified": "2025-12-08T06:34:19Z",
+    "metadataLastUpdated": "2025-12-08T06:35:49.198Z"
   },
   "tags": [
     "Cicadence",
@@ -51,9 +62,8 @@
     "email": "opensource@cms.hhs.gov",
     "name": "Remy DeCausemaker"
   },
-  "feedbackMechanisms": [
-    "https://github.com/DSACMS/npd_cicadence/issues"
-  ],
+  "feedbackMechanism": "https://github.com/DSACMS/npd_cicadence/issues",
+  "AIUseCaseID": "0",
   "localisation": false,
   "repositoryType": "tools",
   "userInput": true,
@@ -63,12 +73,11 @@
     "National Provider Directory"
   ],
   "systems": [],
-  "upstream": "https://github.com/DSACMS/npd_cicadence/network/dependencies",
   "subsetInHealthcare": [
     "operational"
   ],
   "userType": [
     "government"
   ],
-  "maturityModelTier": 0
+  "maturityModelTier": 3
 }
